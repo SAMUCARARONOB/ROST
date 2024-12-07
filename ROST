@@ -1,26 +1,53 @@
--- Função para criar um botão de script
-local function createScriptButton(scriptName, scriptUrl, tab)
-    if not addedScripts[scriptUrl] then
-        tab:CreateButton({
-            Name = scriptName,
-            Callback = function()
-                loadstring(game:HttpGet(scriptUrl))()
-            end
-        })
-        addedScripts[scriptUrl] = true
+local UIS = game:GetService("UserInputService")
+local player = game.Players.LocalPlayer
+
+-- Criar uma entrada de código que pode ser movida e sem posição inicial definida
+local function createCodeInput()
+    local screenGui = Instance.new("ScreenGui")
+    screenGui.Parent = player.PlayerGui
+
+    local inputBox = Instance.new("TextBox")
+    inputBox.Size = UDim2.new(0, 300, 0, 50)
+    inputBox.Text = "Digite seu código aqui"
+    inputBox.Parent = screenGui
+
+    -- Tornar a entrada de código arrastável
+    local dragging
+    local dragInput
+    local dragStart
+    local startPos
+
+    local function update(input)
+        local delta = input.Position - dragStart
+        inputBox.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
     end
+
+    inputBox.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 then
+            dragging = true
+            dragStart = input.Position
+            startPos = inputBox.Position
+
+            input.Changed:Connect(function()
+                if input.UserInputState == Enum.UserInputState.End then
+                    dragging = false
+                end
+            end)
+        end
+    end)
+
+    inputBox.InputChanged:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseMovement then
+            dragInput = input
+        end
+    end)
+
+    UIS.InputChanged:Connect(function(input)
+        if input == dragInput and dragging then
+            update(input)
+        end
+    end)
 end
 
--- Função para extrair URL de um texto
-local function extractUrl(text)
-    return text:match("https?://[%w%./_%-]+")
-end
-
--- Função para obter o nome do script a partir do URL
-local function getScriptName(scriptUrl)
-    local parts = {}
-    for part in scriptUrl:gmatch("[^/]+") do
-        table.insert(parts, part)
-    end
-    return parts[#parts] or "Custom Script"
-end
+-- Chamar a função para criar a entrada de código
+createCodeInput()
