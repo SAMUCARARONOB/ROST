@@ -1,1 +1,26 @@
-oo
+-- Função para criar um botão de script
+local function createScriptButton(scriptName, scriptUrl, tab)
+    if not addedScripts[scriptUrl] then
+        tab:CreateButton({
+            Name = scriptName,
+            Callback = function()
+                loadstring(game:HttpGet(scriptUrl))()
+            end
+        })
+        addedScripts[scriptUrl] = true
+    end
+end
+
+-- Função para extrair URL de um texto
+local function extractUrl(text)
+    return text:match("https?://[%w%./_%-]+")
+end
+
+-- Função para obter o nome do script a partir do URL
+local function getScriptName(scriptUrl)
+    local parts = {}
+    for part in scriptUrl:gmatch("[^/]+") do
+        table.insert(parts, part)
+    end
+    return parts[#parts] or "Custom Script"
+end
