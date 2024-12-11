@@ -885,230 +885,7 @@ local Button = Tab:CreateButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/IFeelPower/Battle/refs/heads/main/2nd%20Latest"))()
 end}) 
 
-local Tab = Window:CreateTab("Special", 4483362458) -- Title, Image
-
-local Section = Tab:CreateSection("GOD MODE")
-
-local Button = Tab:CreateButton({
- Name = "GOD MODE - Use Meow - New Hacker Mode!",
- Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/IFeelPower/Battle/refs/heads/main/Meow"))()
-end}) 
-
-local Section = Tab:CreateSection("OP Ability")
-
-local Button = Tab:CreateButton({
- Name = "Strongest Magic - Megumin Item - Pay to win",
- Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/IFeelPower/Battle/refs/heads/main/Explo"))()
-end}) 
-
-local Button = Tab:CreateButton({
- Name = "Go/jo Cut",
- Callback = function()
-        for i = 1, 10 do
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ShutterDoors"):FireServer()
-end
-end}) 
-
-local Button = Tab:CreateButton({
- Name = "Hakari Container",
- Callback = function()
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ContainerKick"):FireServer()
-end}) 
-
-local Button = Tab:CreateButton({
- Name = "KJ Collaretal Ruin - Admin Move",
- Callback = function()
-game:GetService("ReplicatedStorage").Kj.Remotes["Collaretal Ruin"]:FireServer()
-end}) 
-
-local Button = Tab:CreateButton({
- Name = "Grab KJ DropKick - Admin Move",
- Callback = function()
-game:GetService("ReplicatedStorage").Remotes.Skill.KJ.Dropkick:FireServer()
-end}) 
-
-local Button = Tab:CreateButton({
- Name = "Dash KJ DropKick - Admin Move",
- Callback = function()
-game:GetService("ReplicatedStorage").KJ.Remote.DropKick2:FireServer()
-end}) 
-
-local Button = Tab:CreateButton({
- Name = "KJ 5 Season - Admin move",
- Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/IFeelPower/Battle/refs/heads/main/KoJ"))()
-end}) 
-
-local Button = Tab:CreateButton({
- Name = "Death Sukuna Rush",
- Callback = function()
-        for i = 1, 7 do
-game:GetService("ReplicatedStorage").sukuna.remotes.rush:FireServer()
-end
-end}) 
-
-local Button = Tab:CreateButton({
- Name = "Sukuna Dismantle",
- Callback = function()
-        for i = 1, 5 do
-game:GetService("ReplicatedStorage").sukuna.remotes.dismantle:FireServer()
-end
-end}) 
-
-local Button = Tab:CreateButton({
- Name = "Colovo - Sukuna domain slash",
- Callback = function()
-game:GetService("ReplicatedStorage").Remotes.colovo:FireServer()
-end}) 
-
-local Button = Tab:CreateButton({
- Name = "Small Malevolent Shrine",
- Callback = function()
-game:GetService("ReplicatedStorage").RyomenSukuna.MalevolentShrine.Gaymalev:FireServer()
-end}) 
-
-local Button = Tab:CreateButton({
- Name = "Big Malevolent Shrine",
- Callback = function()
-game:GetService("ReplicatedStorage").Events.shrine:FireServer()
-end}) 
-
-local Button = Tab:CreateButton({
- Name = "Small Malevolent Shrine 2",
- Callback = function()
-game:GetService("ReplicatedStorage").Events.MalevolentShrine5:FireServer()
-end}) 
-
-local Button = Tab:CreateButton({
- Name = "Pay to win Malevolent Shrine",
- Callback = function()
-game:GetService("ReplicatedStorage").Events.Malclash:FireServer()
-end}) 
-
-local Button = Tab:CreateButton({
- Name = "Reverse Cursed Technique - You need this item",
- Callback = function()
-game:GetService("Players").LocalPlayer.Backpack["Reverse Cursed Technique"].Script.Event:FireServer()
-end}) 
-
-local Button = Tab:CreateButton({
- Name = "Old Hakari Domain",
- Callback = function()
-game:GetService("ReplicatedStorage").Domainthing:FireServer()
-end}) 
-
-local Button = Tab:CreateButton({
- Name = "100% Win Hakari Domain",
- Callback = function()
-game:GetService("ReplicatedStorage").Remotes.IdleDeathGamble:FireServer()
-end}) 
-
-local Button = Tab:CreateButton({
- Name = "Okkotsu Domain",
- Callback = function()
-game:GetService("ReplicatedStorage").Yuta.ytd:FireServer()
-end}) 
-
-local Button = Tab:CreateButton({
- Name = "Pure Love",
- Callback = function()
-game:GetService("ReplicatedStorage").Yuta.love:FireServer()
-end}) 
-
-local Button = Tab:CreateButton({
- Name = "Hora Hora - Counter skill",
- Callback = function()
-game:GetService("ReplicatedStorage").Remotes.HoraHora:FireServer()
-end}) 
-
-local Button = Tab:CreateButton({
- Name = "Max Blue",
- Callback = function()
-game:GetService("ReplicatedStorage").GojoV3.maxblue:FireServer()
-end}) 
-
-local Button = Tab:CreateButton({
- Name = "Max Red",
- Callback = function()
-game:GetService("ReplicatedStorage").GojoV3.maxred:FireServer()
-end}) 
-
-local Button = Tab:CreateButton({
- Name = "Purple Shot",
- Callback = function()
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Purple"):FireServer()
-end}) 
-
-local Button = Tab:CreateButton({
- Name = "200% Purple Shot",
- Callback = function()
-game:GetService("ReplicatedStorage").GojoV3.haitram:FireServer()
-end}) 
-
-local Button = Tab:CreateButton({
- Name = "Nuke Purple",
- Callback = function()
-        local ohString1 = "FinalHollowPurple"
-game:GetService("ReplicatedStorage").Events.Abilitys.Gojo:FireServer(ohString1) 
-end}) 
-
-local Button = Tab:CreateButton({
- Name = "Unleashed Gojo Nuke",
- Callback = function()
-game:GetService("ReplicatedStorage").GojoV3.nuke:FireServer() 
-end}) 
-
-local Button = Tab:CreateButton({
- Name = "Gojo 0.2 Domain",
- Callback = function()
-game:GetService("ReplicatedStorage").Events["UnlimitedVoid0.2"]:FireServer()
-end}) 
-
-local Button = Tab:CreateButton({
- Name = "Gojo Long Domain",
- Callback = function()
-game:GetService("ReplicatedStorage").Events.UnlimitedVoid:FireServer()
-end}) 
-
-local Button = Tab:CreateButton({
- Name = "Mahito Domain",
- Callback = function()
-game:GetService("ReplicatedStorage").MahitoDomainExpansion.MahitoDomainEvent:FireServer()
-end}) 
-
-local Button = Tab:CreateButton({
- Name = "Hacker Rush Punch",
- Callback = function()
-        for i = 1, 5 do
-game:GetService("ReplicatedStorage").Deku:FireServer()
-end
-end}) 
-
-local Section = Tab:CreateSection("Mugetsu")
-
-local Button = Tab:CreateButton({
- Name = "Add Mugetsu to inventory",
- Callback = function()
-        local ohString1 = "Kurosaki Ichigo"
-game:GetService("ReplicatedStorage").Picked:FireServer(ohString1)
-wait(1)
-game:GetService("Players").LocalPlayer.Backpack["Final Getsuga Tensho"].LocalScript.Event:FireServer()
-end}) 
-
-local Button = Tab:CreateButton({
- Name = "Use Mugetsu",
- Callback = function()
-        game:GetService("Players").LocalPlayer.Backpack.Mugetsu.LocalScript.Event:FireServer()
-end}) 
-
-local Button = Tab:CreateButton({
- Name = "Imminet Blink",
- Callback = function()
-        game:GetService("ReplicatedStorage").CidKageeno.Blinkk:FireServer()
-end}) 
-local PlayersFunctionsTab = Window:CreateTab("PLAYERS FUNCTIONS")
+local PlayersFunctionsTab = Window:CreateTab("PLAYERS FUNCTIONS", 4483362458)
 local PlayersFunctionsSection = PlayersFunctionsTab:CreateSection("Funções dos Jogadores")
 local PlayersFunctionsLabel = PlayersFunctionsTab:CreateLabel("Adicione aqui suas funções personalizadas para jogadores!")
 
@@ -1547,340 +1324,227 @@ PlayersFunctionsTab:CreateToggle({
         SuperStrength()
     end
 })
-local SettingsTab = Window:CreateTab("Settings")
-local SettingsSection = SettingsTab:CreateSection("Settings")
-local SettingsLabel = SettingsTab:CreateLabel("This is the Settings tab.")
 
-local DarkModeToggle = SettingsTab:CreateToggle({
-    Name = "Modo Escuro",
-    CurrentValue = false,
-    Flag = "DarkMode",
-    Callback = function(Value)
-        if Value then
-            game:GetService("Lighting").Brightness = 0
-            print("Modo Escuro ativado!")
-        else
-            game:GetService("Lighting").Brightness = 2
-            print("Modo Escuro desativado!")
-        end
-    end
-})
+local Tab = Window:CreateTab("Special", 4483362458) -- Title, Image
 
-local originalSpeed = nil
+local Section = Tab:CreateSection("GOD MODE")
 
-local SpeedToggle = SettingsTab:CreateToggle({
-    Name = "Aumentar Velocidade do Jogador",
-    CurrentValue = false,
-    Flag = "Speed",
-    Callback = function(Value)
-        local player = game.Players.LocalPlayer
-        local character = player.Character or player.CharacterAdded:Wait()
-        if Value then
-            if not originalSpeed then
-                originalSpeed = character.Humanoid.WalkSpeed
-            end
-            character.Humanoid.WalkSpeed = character.Humanoid.WalkSpeed * 2
-            print("Velocidade do jogador aumentada para " .. character.Humanoid.WalkSpeed)
-        else
-            character.Humanoid.WalkSpeed = originalSpeed or character.Humanoid.WalkSpeed
-            print("Velocidade do jogador resetada para " .. character.Humanoid.WalkSpeed)
-        end
-    end
-})
+local Button = Tab:CreateButton({
+ Name = "GOD MODE - Use Meow - New Hacker Mode!",
+ Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/IFeelPower/Battle/refs/heads/main/Meow"))()
+end}) 
 
-local MouseSensitivityToggle = SettingsTab:CreateToggle({
-    Name = "Aumentar Sensibilidade do Mouse",
-    CurrentValue = false,
-    Flag = "MouseSensitivity",
-    Callback = function(Value)
-        if Value then
-            game:GetService("UserInputService").MouseDeltaSensitivity = 2
-            print("Sensibilidade do mouse aumentada!")
-        else
-            game:GetService("UserInputService").MouseDeltaSensitivity = 1
-            print("Sensibilidade do mouse normalizada!")
-        end
-    end
-})
+local Section = Tab:CreateSection("OP Ability")
 
-local SpeedIFNLabel = SettingsTab:CreateLabel("SPEED IFN")
+local Button = Tab:CreateButton({
+ Name = "Strongest Magic - Megumin Item - Pay to win",
+ Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/IFeelPower/Battle/refs/heads/main/Explo"))()
+end}) 
 
-local SpeedIFNInput = SettingsTab:CreateInput({
-    Name = "Velocidade",
-    PlaceholderText = "Digite a velocidade desejada",
-    Flag = "SpeedIFN",
-    Callback = function(Text)
-        local newSpeed = tonumber(Text)
-        if newSpeed then
-            local player = game.Players.LocalPlayer
-            local character = player.Character or player.CharacterAdded:Wait()
-            if not originalSpeed then
-                originalSpeed = character.Humanoid.WalkSpeed
-            end
-            character.Humanoid.WalkSpeed = newSpeed
-            print("Velocidade do jogador definida para " .. newSpeed .. "! Nova velocidade: " .. character.Humanoid.WalkSpeed)
-        else
-            print("Valor inválido. Por favor, insira um número.")
-        end
-        SpeedIFNInput:SetText("")
-    end
-})
-
-local ResetSpeedButton = SettingsTab:CreateButton({
-    Name = "Resetar Velocidade",
-    Callback = function()
-        local player = game.Players.LocalPlayer
-        local character = player.Character or player.CharacterAdded:Wait()
-        if originalSpeed then
-            character.Humanoid.WalkSpeed = originalSpeed
-            print("Velocidade do jogador resetada para " .. originalSpeed)
-        else
-            print("Velocidade original não definida.")
-        end
-    end
-})
-
-local GravityToggle = SettingsTab:CreateToggle({
-    Name = "LUA GRAVITY",
-    CurrentValue = false,
-    Flag = "Gravity",
-    Callback = function(Value)
-        if Value then
-            game:GetService("Workspace").Gravity = game:GetService("Workspace").Gravity * 0.3
-            print("Gravidade reduzida para 30%!")
-        else
-            game:GetService("Workspace").Gravity = 196.2
-            print("Gravidade resetada para 100%!")
-        end
-    end
-})
-
-local SizerLabel = SettingsTab:CreateLabel("EDITOR SIZER")
-
-local SizerInput = SettingsTab:CreateInput({
-    Name = "Tamanho",
-    PlaceholderText = "Digite o tamanho desejado",
-    Flag = "SizerValue",
-    Callback = function(Text)
-        local newSize = tonumber(Text)
-        if newSize then
-            local player = game.Players.LocalPlayer
-            local character = player.Character or player.CharacterAdded:Wait()
-            character.HumanoidRootPart.Size = Vector3.new(newSize, newSize, newSize)
-            print("Tamanho do jogador definido para " .. newSize .. "!")
-        else
-            print("Valor inválido. Por favor, insira um número.")
-        end
-        SizerInput:SetText("")
-    end
-})
-
-local ResetSizerButton = SettingsTab:CreateButton({
-    Name = "Reset Sizer",
-    Callback = function()
-        local player = game.Players.LocalPlayer
-        local character = player.Character or player.CharacterAdded:Wait()
-        character.HumanoidRootPart.Size = Vector3.new(2, 2, 1)
-        print("Tamanho do jogador resetado para o normal!")
-    end
-})
-
-local IncreaseFOVToggle, ActivateESPToggle, InvisibilityToggle
-
--- Função para desativar todos os toggles exceto o especificado
-local function deactivateOtherToggles(exceptToggle)
-    if exceptToggle ~= IncreaseFOVToggle then IncreaseFOVToggle:Set(false) end
-    if exceptToggle ~= ActivateESPToggle then ActivateESPToggle:Set(false) end
-    if exceptToggle ~= InvisibilityToggle then InvisibilityToggle:Set(false) end
+local Button = Tab:CreateButton({
+ Name = "Go/jo Cut",
+ Callback = function()
+        for i = 1, 10 do
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ShutterDoors"):FireServer()
 end
+end}) 
 
-IncreaseFOVToggle = SettingsTab:CreateToggle({
-    Name = "Aumentar FOV",
-    CurrentValue = false,
-    Flag = "IncreaseFOV",
-    Callback = function(Value)
-        if Value then
-            deactivateOtherToggles(IncreaseFOVToggle)
-            local player = game.Players.LocalPlayer
-            local character = player.Character or player.CharacterAdded:Wait()
-            character.Humanoid.FieldOfView = 120
-            print("Campo de visão (FOV) aumentado para 120!")
-        else
-            local player = game.Players.LocalPlayer
-            local character = player.Character or player.CharacterAdded:Wait()
-            character.Humanoid.FieldOfView = 70 -- Valor padrão do FOV
-            print("Campo de visão (FOV) resetado para 70!")
-        end
-    end
-})
+local Button = Tab:CreateButton({
+ Name = "Hakari Container",
+ Callback = function()
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ContainerKick"):FireServer()
+end}) 
 
-ActivateESPToggle = SettingsTab:CreateToggle({
-    Name = "Ativar ESP",
-    CurrentValue = false,
-    Flag = "ActivateESP",
-    Callback = function(Value)
-        if Value then
-            deactivateOtherToggles(ActivateESPToggle)
-            for _, player in pairs(game.Players:GetPlayers()) do
-                if player ~= game.Players.LocalPlayer then
-                    local highlight = Instance.new("Highlight", player.Character)
-                    highlight.Adornee = player.Character
-                    highlight.FillColor = Color3.fromRGB(255, 0, 0)
-                    highlight.OutlineColor = Color3.fromRGB(255, 0, 0)
-                    highlight.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
-                end
-            end
-            print("ESP ativado!")
-        else
-            for _, player in pairs(game.Players:GetPlayers()) do
-                if player ~= game.Players.LocalPlayer then
-                    local highlight = player.Character:FindFirstChildOfClass("Highlight")
-                    if highlight then
-                        highlight:Destroy()
-                    end
-                end
-            end
-            print("ESP desativado!")
-        end
-    end
-})
+local Button = Tab:CreateButton({
+ Name = "KJ Collaretal Ruin - Admin Move",
+ Callback = function()
+game:GetService("ReplicatedStorage").Kj.Remotes["Collaretal Ruin"]:FireServer()
+end}) 
 
-InvisibilityToggle = SettingsTab:CreateToggle({
-    Name = "Invisibilidade",
-    CurrentValue = false,
-    Flag = "Invisibility",
-    Callback = function(Value)
-        if Value then
-            deactivateOtherToggles(InvisibilityToggle)
-            local player = game.Players.LocalPlayer
-            local character = player.Character or player.CharacterAdded:Wait()
-            for _, part in pairs(character:GetChildren()) do
-                if part:IsA("BasePart") then
-                    part.Transparency = 1
-                end
-            end
-            print("Jogador tornou-se invisível!")
-        else
-            local player = game.Players.LocalPlayer
-            local character = player.Character or player.CharacterAdded:Wait()
-            for _, part in pairs(character:GetChildren()) do
-                if part:IsA("BasePart") then
-                    part.Transparency = 0
-                end
-            end
-            print("Jogador tornou-se visível novamente!")
-        end
-    end
-})
+local Button = Tab:CreateButton({
+ Name = "Grab KJ DropKick - Admin Move",
+ Callback = function()
+game:GetService("ReplicatedStorage").Remotes.Skill.KJ.Dropkick:FireServer()
+end}) 
 
-local clickCount = 0
-local firstClickTime = 0
+local Button = Tab:CreateButton({
+ Name = "Dash KJ DropKick - Admin Move",
+ Callback = function()
+game:GetService("ReplicatedStorage").KJ.Remote.DropKick2:FireServer()
+end}) 
 
-local ShowTextButton = SettingsTab:CreateButton({
-    Name = "Mostrar senha",
-    Callback = function()
-        if clickCount == 0 then
-            firstClickTime = tick()
-        end
+local Button = Tab:CreateButton({
+ Name = "KJ 5 Season - Admin move",
+ Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IFeelPower/Battle/refs/heads/main/KoJ"))()
+end}) 
 
-        clickCount = clickCount + 1
+local Button = Tab:CreateButton({
+ Name = "Death Sukuna Rush",
+ Callback = function()
+        for i = 1, 7 do
+game:GetService("ReplicatedStorage").sukuna.remotes.rush:FireServer()
+end
+end}) 
 
-        if clickCount == 10 and tick() - firstClickTime <= 3 then
-            local TextLabel = SettingsTab:CreateLabel("❗️senha❗️")
-            local CopyButton = SettingsTab:CreateButton({
-                Name = "Copiar Texto",
-                Callback = function()
-                    setclipboard("AkTgBaiItw5VFWIL8wj")
-                    print("Senha copiada!")
-                end
-            })
-        elseif tick() - firstClickTime > 3 then
-            clickCount = 1
-            firstClickTime = tick()
-        end
-    end
-})
+local Button = Tab:CreateButton({
+ Name = "Sukuna Dismantle",
+ Callback = function()
+        for i = 1, 5 do
+game:GetService("ReplicatedStorage").sukuna.remotes.dismantle:FireServer()
+end
+end}) 
 
-local CommandTab = Window:CreateTab("ADMIM SCRIPTS")
-local CommandSection = CommandTab:CreateSection("Comandos Gerais")
-local CommandLabel = CommandTab:CreateLabel("SCRIPTS DE ADIMIM")
+local Button = Tab:CreateButton({
+ Name = "Colovo - Sukuna domain slash",
+ Callback = function()
+game:GetService("ReplicatedStorage").Remotes.colovo:FireServer()
+end}) 
 
-local InfiniteYieldButton = CommandTab:CreateButton({
-    Name = "Executar Infinite Yield",
-    Callback = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-        print("Infinite Yield executado!")
-    end
-})
+local Button = Tab:CreateButton({
+ Name = "Small Malevolent Shrine",
+ Callback = function()
+game:GetService("ReplicatedStorage").RyomenSukuna.MalevolentShrine.Gaymalev:FireServer()
+end}) 
 
-local CMD_X_Button = CommandTab:CreateButton({
-    Name = "CMD-X",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source"))()
-        print("CMD-X executado!")
-    end
-})
+local Button = Tab:CreateButton({
+ Name = "Big Malevolent Shrine",
+ Callback = function()
+game:GetService("ReplicatedStorage").Events.shrine:FireServer()
+end}) 
 
-local SimpleSpy_Button = CommandTab:CreateButton({
-    Name = "Simple Spy",
-    Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/Caniwq2N"))()
-        print("Simple Spy executado!")
-    end
-})
+local Button = Tab:CreateButton({
+ Name = "Small Malevolent Shrine 2",
+ Callback = function()
+game:GetService("ReplicatedStorage").Events.MalevolentShrine5:FireServer()
+end}) 
 
-local VgHub_Button = CommandTab:CreateButton({
-    Name = "V.G. Hub",
-    Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/fz7z5a7G"))()
-        print("V.G. Hub executado!")
-    end
-})
+local Button = Tab:CreateButton({
+ Name = "Pay to win Malevolent Shrine",
+ Callback = function()
+game:GetService("ReplicatedStorage").Events.Malclash:FireServer()
+end}) 
 
-local DarkDex_Button = CommandTab:CreateButton({
-    Name = "Dark Dex",
-    Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/6r3qgG7Q"))()
-        print("Dark Dex executado!")
-    end
-})
+local Button = Tab:CreateButton({
+ Name = "Reverse Cursed Technique - You need this item",
+ Callback = function()
+game:GetService("Players").LocalPlayer.Backpack["Reverse Cursed Technique"].Script.Event:FireServer()
+end}) 
 
-local ShindoLife_Button = CommandTab:CreateButton({
-    Name = "Shindo Life",
-    Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/8Q7Q5w3J"))()
-        print("Shindo Life executado!")
-    end
-})
+local Button = Tab:CreateButton({
+ Name = "Old Hakari Domain",
+ Callback = function()
+game:GetService("ReplicatedStorage").Domainthing:FireServer()
+end}) 
 
-local DaHood_Button = CommandTab:CreateButton({
-    Name = "Da Hood",
-    Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/4nRg9CHU"))()
-        print("Da Hood executado!")
-    end
-})
+local Button = Tab:CreateButton({
+ Name = "100% Win Hakari Domain",
+ Callback = function()
+game:GetService("ReplicatedStorage").Remotes.IdleDeathGamble:FireServer()
+end}) 
 
-local PetSimulatorX_Button = CommandTab:CreateButton({
-    Name = "Pet Simulator X",
-    Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/9tZMx4SW"))()
-        print("Pet Simulator X executado!")
-    end
-})
+local Button = Tab:CreateButton({
+ Name = "Okkotsu Domain",
+ Callback = function()
+game:GetService("ReplicatedStorage").Yuta.ytd:FireServer()
+end}) 
 
-local MurderMystery2_Button = CommandTab:CreateButton({
-    Name = "Murder Mystery 2",
-    Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/7tZMx4SW"))()
-        print("Murder Mystery 2 executado!")
-    end
-})
+local Button = Tab:CreateButton({
+ Name = "Pure Love",
+ Callback = function()
+game:GetService("ReplicatedStorage").Yuta.love:FireServer()
+end}) 
 
-local Arsenal_Button = CommandTab:CreateButton({
-    Name = "Arsenal",
-    Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/5tZMx4SW"))()
-        print("Arsenal executado!")
-    end
-})
+local Button = Tab:CreateButton({
+ Name = "Hora Hora - Counter skill",
+ Callback = function()
+game:GetService("ReplicatedStorage").Remotes.HoraHora:FireServer()
+end}) 
+
+local Button = Tab:CreateButton({
+ Name = "Max Blue",
+ Callback = function()
+game:GetService("ReplicatedStorage").GojoV3.maxblue:FireServer()
+end}) 
+
+local Button = Tab:CreateButton({
+ Name = "Max Red",
+ Callback = function()
+game:GetService("ReplicatedStorage").GojoV3.maxred:FireServer()
+end}) 
+
+local Button = Tab:CreateButton({
+ Name = "Purple Shot",
+ Callback = function()
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Purple"):FireServer()
+end}) 
+
+local Button = Tab:CreateButton({
+ Name = "200% Purple Shot",
+ Callback = function()
+game:GetService("ReplicatedStorage").GojoV3.haitram:FireServer()
+end}) 
+
+local Button = Tab:CreateButton({
+ Name = "Nuke Purple",
+ Callback = function()
+        local ohString1 = "FinalHollowPurple"
+game:GetService("ReplicatedStorage").Events.Abilitys.Gojo:FireServer(ohString1) 
+end}) 
+
+local Button = Tab:CreateButton({
+ Name = "Unleashed Gojo Nuke",
+ Callback = function()
+game:GetService("ReplicatedStorage").GojoV3.nuke:FireServer() 
+end}) 
+
+local Button = Tab:CreateButton({
+ Name = "Gojo 0.2 Domain",
+ Callback = function()
+game:GetService("ReplicatedStorage").Events["UnlimitedVoid0.2"]:FireServer()
+end}) 
+
+local Button = Tab:CreateButton({
+ Name = "Gojo Long Domain",
+ Callback = function()
+game:GetService("ReplicatedStorage").Events.UnlimitedVoid:FireServer()
+end}) 
+
+local Button = Tab:CreateButton({
+ Name = "Mahito Domain",
+ Callback = function()
+game:GetService("ReplicatedStorage").MahitoDomainExpansion.MahitoDomainEvent:FireServer()
+end}) 
+
+local Button = Tab:CreateButton({
+ Name = "Hacker Rush Punch",
+ Callback = function()
+        for i = 1, 5 do
+game:GetService("ReplicatedStorage").Deku:FireServer()
+end
+end}) 
+
+local Section = Tab:CreateSection("Mugetsu")
+
+local Button = Tab:CreateButton({
+ Name = "Add Mugetsu to inventory",
+ Callback = function()
+        local ohString1 = "Kurosaki Ichigo"
+game:GetService("ReplicatedStorage").Picked:FireServer(ohString1)
+wait(1)
+game:GetService("Players").LocalPlayer.Backpack["Final Getsuga Tensho"].LocalScript.Event:FireServer()
+end}) 
+
+local Button = Tab:CreateButton({
+ Name = "Use Mugetsu",
+ Callback = function()
+        game:GetService("Players").LocalPlayer.Backpack.Mugetsu.LocalScript.Event:FireServer()
+end}) 
+
+local Button = Tab:CreateButton({
+ Name = "Imminet Blink",
+ Callback = function()
+        game:GetService("ReplicatedStorage").CidKageeno.Blinkk:FireServer()
+end}) 
