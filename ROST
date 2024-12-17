@@ -1,8 +1,8 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "OP SCRIPTS v2",
-   LoadingTitle = "OP SCRIPTS v2", 4483362458,
+   Name = "OP SCRIPTS EXTRA FUNCTIONS",
+   LoadingTitle = "OP SCRIPTS EXTRAS", 4483362458,
    LoadingSubtitle = "by Petelgeuse Romanée-Conti",
    ConfigurationSaving = {
       Enabled = true,
